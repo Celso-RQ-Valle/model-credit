@@ -1,13 +1,38 @@
+# Virtual environments
 .venv/
 venv/
 
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# Data files (datasets não vão para o git)
 data/
 *.csv
 *.parquet
+*.feather
 
-.ipynb_checkpoints/
+# Spark / temp files
+*.log
+spark-warehouse/
 
-.env
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Python build
+build/
+dist/
+*.egg-info/
